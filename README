@@ -4,6 +4,10 @@ To export a Palm pdb file to XML, download xmlexport.jar from
 
 http://gnukeyring.sourceforge.net/conduits.html
 
+Execute the export e.g.
+
+java -jar xmlexport.jar Keys-Gtkr.pdb password > keyring.xml
+
 It should create an XML file with the form:
 
 <pwlist>
