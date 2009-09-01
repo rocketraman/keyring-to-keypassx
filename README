@@ -1,4 +1,4 @@
-Simple XML stylesheet to convert from gnu keyring (palm os) XML file to a keypassx XML file.
+Simple XML stylesheet to convert from gnu keyring (palm os) XML file to a keypassx (1) XML file.
 
 To export a Palm pdb file to XML, download xmlexport.jar from
 
@@ -27,3 +27,9 @@ java -jar saxon9.jar -xsl:keyring-to-keypassx.xsl -s:keyring.xml -o:keypass.xml
 
 The keypass.xml file should be importable into keypassx. One group will be created for each
 category in keyring.
+
+Notes: 
+
+(1) To export to keepass instead of keepassx, check out:
+
+  http://github.com/philipp/keyring2keepass/
